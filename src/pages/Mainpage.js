@@ -40,7 +40,7 @@ const Mainpage = () => {
               <Image
                 width={"90%"}
                 preview={false}
-                src='/collage.png'
+                src='/collage.jpg'
               />
           </div>
         </Layout.Content>
