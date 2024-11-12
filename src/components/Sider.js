@@ -38,7 +38,7 @@ const Sider = ({showLoginModal, logout}) => {
     const isLoggedIn = useContext(LoginContext);
 
     const items = [
-      {icon: UserOutlined, route:'/', label: 'Главная'},
+      {icon: UserOutlined, route:'/', label: 'Главная.'},
       {icon: CalendarOutlined, route:'/calendar', label: 'Календарь', protected: true},
       {icon: PictureOutlined, route:'/gallery', label: 'Галлерея', protected: true},
     ]
