@@ -11,5 +11,5 @@ jobs:
       - name: remove old files
         run: rm -rf /var/www/frontend/*
       - name: copy
-        run: cp -r ./* /var/www/frontend/
+        run: cp -r ./build/* /var/www/frontend/
     
