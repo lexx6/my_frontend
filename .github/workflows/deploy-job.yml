@@ -1,0 +1,10 @@
+name: Deploy job
+on:
+  push:
+    branches: ["main"]
+jobs:
+  deploy:
+    runs-on: self-hosted
+    steps:
+      - name: install dependencies
+        run: npm install
